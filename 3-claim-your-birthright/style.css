@@ -1,12 +1,72 @@
 /*
   This will get rid of some annoying pre-loading margin/padding
 */
+@import url('https://fonts.googleapis.com/css?family=Faster+One|Questrial');
 
 html, body {
   padding: 0;
   margin: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
 }
 
 /*
   Now, your CSS
 */
+body {
+  background: #13163f;
+  color: #fbffe0;
+}
+
+header {
+  text-align: center;
+}
+
+h1 {
+  font-size: 8em;
+  font-family: "Faster One", sans-serif;
+  margin-bottom: 0;
+}
+
+header h2 {
+  font-size: 4em;
+  font-style: italic;
+  margin-top: 0;
+}
+
+h2, h3, p, aside {
+  font-family: "Questrial", sans-serif;
+}
+
+.info {
+  font-size: 1.5em;
+  padding: 0px 10px;
+}
+
+.info h2 {
+  text-align: center;
+}
+
+.plane {
+  padding-left: 10px;
+}
+
+.plane p, .plane img, .plane aside, .plane .speed-line {
+  display: inline;
+  vertical-align: middle;
+}
+
+.plane img {
+  width: 100px;
+}
+
+.speed-line {
+  display: inline-block!important;
+  background: url("images/speedline.png");
+  background-repeat: repeat;
+  height: 20px;
+  border-radius: 50px;
+  margin-left: 5px;
+}
