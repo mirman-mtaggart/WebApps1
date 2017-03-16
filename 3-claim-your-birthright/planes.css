@@ -1,6 +1,70 @@
-#speed-wright {
+.plane:hover #speed-wright {
   width: 30px;
 }
-#speed-camel {
+.plane:hover #speed-camel {
+  width: 113px;
+}
 
+.plane:hover #speed-geebee {
+  width: 294px;
+}
+
+.plane:hover #speed-warhawk {
+  width: 360px;
+}
+
+.plane:hover #speed-schwalbe {
+  width: 559px;
+}
+
+.plane:hover #speed-mustang {
+  width: 440px;
+}
+
+.plane:hover #speed-shootingstar {
+  width: 600px;
+}
+
+.plane:hover #speed-xone {
+  width: 957px;
+}
+
+.plane:hover #speed-sabre {
+  width: 687px;
+}
+
+.plane:hover #speed-xtwo {
+  width: 2094px;
+}
+
+.plane:hover #speed-starfighter {
+  width: 1528px;
+}
+
+.plane:hover #speed-xfifteen {
+  width: 4520px;
+}
+
+.plane:hover #speed-blackbird {
+  width: 2200px;
+}
+
+.plane:hover #speed-concorde {
+  width: 1354px;
+}
+
+.plane:hover #speed-eagle {
+  width: 1650px;
+}
+
+.plane:hover #speed-hornet {
+  width: 1190px;
+}
+
+.plane:hover #speed-raptor {
+  width: 1500px;
+}
+
+.plane:hover #speed-lightning {
+  width: 1200px;
 }

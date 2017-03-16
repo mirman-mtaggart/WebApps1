@@ -16,11 +16,13 @@ html, body {
   Now, your CSS
 */
 body {
+  width: 5000px;
   background: #13163f;
   color: #fbffe0;
 }
 
 header {
+  width: 100vw;
   text-align: center;
 }
 
@@ -40,7 +42,17 @@ h2, h3, p, aside {
   font-family: "Questrial", sans-serif;
 }
 
+aside {
+  opacity: 0;
+  transition: opacity .7s;
+}
+
+.plane:hover aside {
+  opacity: 1;
+}
+
 .info {
+  width: 100vw;
   font-size: 1.5em;
   padding: 0px 10px;
 }
@@ -50,8 +62,22 @@ h2, h3, p, aside {
 }
 
 .plane {
-  padding-left: 10px;
+  padding: 10px;
+  transition: background .2s;
 }
+
+.plane:hover {
+  background: grey;
+}
+
+.plane h3 {
+  transition: font-size .2s;
+}
+
+.plane:hover h3 {
+  font-size: 1.7em;
+}
+
 
 .plane p, .plane img, .plane aside, .plane .speed-line {
   display: inline;
@@ -59,8 +85,9 @@ h2, h3, p, aside {
 }
 
 .plane img {
-  width: 100px;
+  height: 150px;
 }
+
 
 .speed-line {
   display: inline-block!important;
@@ -69,4 +96,6 @@ h2, h3, p, aside {
   height: 20px;
   border-radius: 50px;
   margin-left: 5px;
+  width: 0px;
+  transition: width .5s;
 }
